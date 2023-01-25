@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: my-acr.azurecr.io/my-image:my-version
+        image: acrlab0010yb.azurecr.io/coolapi:1.0.0
         resources:
           limits:
             memory: "128Mi"
